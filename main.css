@@ -1,0 +1,56 @@
+.title{
+    color: blue;
+}
+body {
+    /* Set the height to the full viewport height */
+    min-height: 100vh;
+  
+    
+    /* Enable Flexbox */
+    display: flex;
+    
+    /* Stack elements vertically (h1, then button, then pre) */
+    flex-direction: column;
+    
+    /* Center horizontally */
+    align-items: center;
+    
+    /* Center vertically */
+    justify-content: center;
+    
+    /* Optional: Add some space between elements */
+    gap: 20px;
+    
+    /* Reset default margins */
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    body {
+    /* A smooth, soft blue-to-purple gradient */
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    
+    /* Ensure the background covers the whole screen */
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+
+    /* Keeping your centering logic from before */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Dark grey instead of black for a smoother look */
+}
+
+
+}
+#output {
+    /* Making the output box slightly transparent to blend in */
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); /* This adds a "glass" effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}

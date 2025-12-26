@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consumo de API</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- Los IDs deben ser únicos y coincidir con el JS -->
-    <h1>User ID: <span id="userid">Cargando...</span></h1>
-    <h1>ID: <span id="id1">Cargando...</span></h1>
-    <h1>Título: <span id="title">Cargando...</span></h1>
-    <h1>Completado: <span id="completed">Cargando...</span></h1>
+    <h1 class="title">Restful api's</h1>
+    <!-- The button to trigger the fetch -->
+     <h3>Fetch normal https://jsonplaceholder.typicode.com/todos/1</h3>
+    <button id="fetchButton">Fetch Data</button>
+    
+    <!-- Area to display the fetched data or messages -->
+    <pre id="output">Status: Ready</pre>
 
     <script src="app.js"></script>  
 </body>
